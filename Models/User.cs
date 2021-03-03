@@ -1,5 +1,4 @@
-﻿using System;
-using ProjectManager.Data;
+﻿using ProjectManager.Data;
 
 namespace ProjectManager.Models
 {

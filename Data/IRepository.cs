@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace ProjectManager.Data
 {
-        public interface IRepository<T> where T : class 
+    public interface IRepository<T> where T : class 
         {
             Task<List<T>> GetAll();
             Task<T> Get(int id);

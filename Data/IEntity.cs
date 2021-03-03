@@ -1,5 +1,4 @@
-﻿using System;
-namespace ProjectManager.Data
+﻿namespace ProjectManager.Data
 {
     public interface IEntity
     {
