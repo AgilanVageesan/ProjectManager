@@ -57,16 +57,16 @@ namespace ProjectManager
 
         public List<User> GetUsers()
         {
-            return Users.Local.ToList<User>();
+            return Users.Local.ToList();
         }
         public List<Project> GetProjects()
         {
-            return Projects.Local.ToList<Project>();
+            return Projects.Local.ToList();
         }
 
         public List<Task> GetTasks()
         {
-            return Tasks.Local.ToList<Task>();
+            return Tasks.Local.ToList();
         }
 
     }

@@ -1,7 +1,9 @@
 ﻿using System;
+using ProjectManager.Data;
+
 namespace ProjectManager.Models
 {
-    public class Project
+    public class Project:IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

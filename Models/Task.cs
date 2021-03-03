@@ -1,7 +1,9 @@
 ﻿using System;
+using ProjectManager.Data;
+
 namespace ProjectManager.Models
 {
-    public class Task
+    public class Task:IEntity
     {
         public int Id { get; set; }
         public int ProjectId { get; set; }
